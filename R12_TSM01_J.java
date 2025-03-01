@@ -1,5 +1,5 @@
 final class Publisher {
-  public static Publisher published;
+  static volatile Publisher published;
   int num;
  
   Publisher(int number) {
